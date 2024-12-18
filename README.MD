@@ -12,7 +12,7 @@ OCRLabeler là một ứng dụng giao diện người dùng (GUI) được xây
 
     ```sh
     git clone https://github.com/ti014/OCRLabeler.git
-    cd OCRLabelTool
+    cd OCRLabeler
     ```
 
 2. **Cài đặt các thư viện cần thiết:**
