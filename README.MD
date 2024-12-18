@@ -2,17 +2,19 @@
 
 ## Giới thiệu
 
-OCRLabeler là một ứng dụng giao diện người dùng (GUI) được xây dựng bằng Python và Tkinter, giúp người dùng dễ dàng gán nhãn cho các hình ảnh sử dụng công nghệ nhận dạng ký tự quang học (OCR).
+OCRLabeler là một ứng dụng giúp người dùng dễ dàng gán nhãn cho các hình ảnh sử dụng công nghệ nhận dạng ký tự quang học (OCR), tích hợp VietOCR để đưa ra dự đoán.
 
 
 
 ## Cài đặt
-
-1. **Clone dự án từ GitHub:**
+1. **Từ file .exe**
+Có thể sử dụng file .exe đã đóng gói tại [đây](https://github.com/ti014/OCRLabeler/releases/download/v1.0.0/OCRLabeler.exe). Nếu bạn muốn tùy chỉnh nâng cao thì theo dõi các bước bên dưới để chạy ứng dụng.
+#####
+2. **Clone dự án từ GitHub:**
 
     ```sh
     git clone https://github.com/ti014/OCRLabeler.git
-    cd OCRLabelTool
+    cd OCRLabeler
     ```
 
 2. **Cài đặt các thư viện cần thiết:**
@@ -24,7 +26,6 @@ OCRLabeler là một ứng dụng giao diện người dùng (GUI) được xây
     ```
 
 ## Sử dụng
-
 1. **Chạy ứng dụng:**
 
     Chạy file [main.py](./main.py) để khởi động ứng dụng:
@@ -44,6 +45,7 @@ OCRLabeler là một ứng dụng giao diện người dùng (GUI) được xây
 ## Demo
 - Phần giao diện:
 ![Demo1](./images/1.jpg)
+#####
 - Nhãn sau khi save sẽ nằm cùng thư mục ảnh và có cấu trúc sau:
 ![Demo2](./images/2.jpg)
 
@@ -58,7 +60,7 @@ Sử dụng `PyInstaller` để đóng gói ứng dụng thành file thực thi:
 ```sh
 pyinstaller main.spec
 ```
-
+Phần này bạn nên tự tìm hiểu cách tạo ra file`main.spec` hoặc đơn giản nhất là sử dụng thư viện [auto-py-to-exe - PyPI](https://pypi.org/project/auto-py-to-exe/)
 ## Model Weights
 
 Bạn có thể tải file trọng số của mô hình tại [đây](https://github.com/ti014/OCRLabeler/releases/download/v1.0/vgg_transformer.zip).
