@@ -7,7 +7,7 @@ OCRLabeler là một ứng dụng giúp người dùng dễ dàng gán nhãn cho
 
 
 ## Cài đặt
-1. **Từ file .exe**
+1. **Từ file .exe:**
 Có thể sử dụng file .exe đã đóng gói tại [đây](https://github.com/ti014/OCRLabeler/releases/download/v1.0.0/OCRLabeler.exe). Nếu bạn muốn tùy chỉnh nâng cao thì theo dõi các bước bên dưới để chạy ứng dụng.
 #####
 2. **Clone dự án từ GitHub:**
